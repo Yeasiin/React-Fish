@@ -11,7 +11,6 @@ class StoreFront extends React.Component {
     e.preventDefault();
     const storeName = this.myInput.current.value;
     this.props.history.push(`/store/${storeName}`)
-    
   }
 
   render() {
