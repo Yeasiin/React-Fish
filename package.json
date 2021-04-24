@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
-    "firebase": "^7.6.0",
+    "firebase": "^7.24.0",
     "prop-types": "^15.6.0",
     "re-base": "4.0.0",
     "react": "^16.6.3",
