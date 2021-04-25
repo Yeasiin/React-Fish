@@ -10,7 +10,6 @@ export default class EditFishForm extends Component {
       ...this.props.fish,
       [e.currentTarget.name]: e.currentTarget.value,
     };
-    console.log(updateFish);
     this.props.updateFish(this.props.index, updateFish);
   }
 
