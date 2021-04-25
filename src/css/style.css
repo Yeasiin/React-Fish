@@ -24,19 +24,16 @@
   padding: 0;
 }
 .count-enter {
-  background: #f00;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
 }
 .count-enter.count-enter-active {
-  background: #ff0;
   -webkit-transform: translateY(0);
           transform: translateY(0);
 }
 .count-exit {
-  background: #000;
   -webkit-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition: 0.5s;
@@ -46,9 +43,8 @@
   bottom: 0;
 }
 .count-exit.count-exit-active {
-  background: #008000;
-  -webkit-transform: translateY(-100%) scale(3);
-          transform: translateY(-100%) scale(3);
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 @font-face {
   font-family: "haymakerregular";
@@ -520,7 +516,7 @@ input[type=submit] {
   border: 1px solid #000;
   font-weight: 600;
   font-size: 1.5rem;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
   position: relative;

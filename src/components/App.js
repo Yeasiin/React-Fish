@@ -4,7 +4,7 @@ import Order from "./Order";
 import Inventory from "./Inventory";
 import sampleFishes from "../sample-fishes";
 import Fish from "./fish";
-import { base, firebaseApp } from "../base";
+import { base } from "../base";
 
 class App extends React.Component {
   constructor() {

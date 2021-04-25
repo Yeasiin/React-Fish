@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { formatPrice } from "../helpers";
 
 export default class EditFishForm extends Component {
   constructor() {
